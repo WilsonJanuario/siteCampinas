@@ -1,21 +1,14 @@
-import React from 'react';
+import './styled';
+import React from 'react'
+import Form from './Form';
 
-import { ContainerPage, TitlePage } from "../../components/Main.js";
-
-const Page = () => {
+const index = () => {
     return (
-        <ContainerPage>
+        <div>
+            <Form />
             
-            <TitlePage> Confiração...!</TitlePage>
-            
- 
- 
-
-        </ContainerPage>
-            
-        
-    );
-
+        </div>
+    )
 }
 
-export default Page;
+export default index;
