@@ -1,11 +1,17 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-export const { AreaLogin } = styled.div`
 
-    background-color: #fff;
-    padding: 30px;
-    margin: auto;
+export const AreaFooter = styled.div`
+    background-color: #777;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: auto;        
+     margin: 30px auto;
+                
+            
+  }
     
 
-
+   
 `;
