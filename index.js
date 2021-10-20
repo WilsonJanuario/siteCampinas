@@ -1,6 +1,7 @@
-import './styled';
+import './styled.css';
 import React from 'react'
 import Form from './Form';
+
 
 const index = () => {
     return (

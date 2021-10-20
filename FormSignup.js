@@ -2,12 +2,14 @@ import React from 'react';
 import useForm from './useForm';
 import UseForm from './useForm';
 import validate from './validateInfo';
+import  './styled.css';
 
 
 
-const FormSignup = () => {
+const FormSignup = ({submitForm}) => {
 
-    const { handleChange, values, handleSubmit, errors } = useForm(validate);
+    const { handleChange, values, handleSubmit, errors } 
+    = useForm(submitForm, validate);
 
     return (
         <div className= 'form-content-right'>
