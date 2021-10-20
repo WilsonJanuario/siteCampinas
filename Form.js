@@ -26,7 +26,7 @@ const Form = () => {
             {!isSubmitted ? 
             (<FormSignup submitForm= {submitForm}/>
             ) : (<FormSuccess />)}
-            <FormSuccess />
+            
 
             </div>
            
